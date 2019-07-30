@@ -37,9 +37,13 @@ class ConnectedButtons extends Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this._decrement}>-</button>
-        <button onClick={this._increment}>+</button>
+      <div className="buttons">
+        <button
+          className="buttons__button buttons__button--minus"
+          onClick={this._decrement}>-</button>
+        <button
+          className="buttons__button buttons__button--plus"
+          onClick={this._increment}>+</button>
       </div>
     )
   }
