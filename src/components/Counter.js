@@ -8,9 +8,7 @@ const mapStateToProps = state => {
 }
 
 const ConnectedCounter = ({ count }) => (
-  <div>
-    <h2>{count}</h2>
-  </div>
+  <h2>{count}</h2>
 )
 
 const Counter = connect(mapStateToProps)(ConnectedCounter)
