@@ -1,0 +1,19 @@
+{
+  "name": "ugg-counter",
+  "version": "1.0.0",
+  "description": "Counter built in React + Redux for U.GG technical code interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rosslibby/ugg-counter.git"
+  },
+  "author": "Ross Libby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosslibby/ugg-counter/issues"
+  },
+  "homepage": "https://github.com/rosslibby/ugg-counter#readme"
+}
