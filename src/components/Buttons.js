@@ -24,14 +24,14 @@ class ConnectedButtons extends Component {
   _increment() {
     let { count } = this.state
     count++
-    this.props._increment(count)
+    this.props.incrementCounter(count)
     this.setState({ count })
   }
 
   _decrement() {
     let { count } = this.state
     count--
-    this.props._decrement(count)
+    this.props.decrementCounter(count)
     this.setState({ count })
   }
 
