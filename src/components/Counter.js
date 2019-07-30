@@ -1,11 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { connect } from 'react-redux'
 
-export default class Counter extends Component {
-  render () {
-    return (
-      <div>
-        <h2></h2>
-      </div>
-    )
+const mapStateToProps = state => {
+  return {
+    count: state.count
   }
 }
+
+const ConnectedCounter = ({ count }) => (
+  <div>
+    <h2>{count}</h2>
+  </div>
+)
+
+const Counter = connect(mapStateToProps)(ConnectedCounter)
+export default Counter
