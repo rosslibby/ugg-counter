@@ -4,7 +4,7 @@ const initialState = {
   count: 0
 }
 
-export default const rootReducer = (state = initialState, action) => {
+const rootReducer = (state = initialState, action) => {
   switch(action.type) {
     case DECREMENT_COUNTER:
       return Object.assign({}, state, {
@@ -18,3 +18,5 @@ export default const rootReducer = (state = initialState, action) => {
       return state
   }
 }
+
+export default rootReducer

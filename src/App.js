@@ -1,7 +1,7 @@
 import React from 'react'
 import { Buttons, Counter } from './components'
 
-export default const App = () => {
+const App = () => {
   return (
     <div>
       <h1>Counter</h1>
@@ -10,3 +10,5 @@ export default const App = () => {
     </div>
   )
 }
+
+export default App

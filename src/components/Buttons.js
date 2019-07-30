@@ -34,15 +34,15 @@ class ConnectedButtons extends Component {
     this.props._decrement(count)
     this.setState({ count })
   }
-}
 
-render() {
-  return (
-    <div>
-      <button onClick={this._decrement}>-</button>
-      <button onClick={this._increment}>+</button>
-    </div>
-  )
+  render() {
+    return (
+      <div>
+        <button onClick={this._decrement}>-</button>
+        <button onClick={this._increment}>+</button>
+      </div>
+    )
+  }
 }
 
 const Buttons = connect(null, mapDispatchToProps)(ConnectedButtons)
